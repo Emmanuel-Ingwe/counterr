@@ -18,7 +18,7 @@ btns.forEach(function (btn) {
         } if (count < 0) {
             value.style.color = 'maroon';
         } if (count === 0) {
-            value.style.color = 'yellow';
+            value.style.color = 'pink';
         }
         value.textContent = count;
     });
